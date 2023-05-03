@@ -38,24 +38,24 @@ const NavBar = () => {
             <Typography className={classes.userName} variant="h6">
               {user.result.name}
             </Typography>
-            <Button
-              variant="contained"
-              className={classes.logout}
-              color="secondary"
-            >
-              {" "}
-              logout
-            </Button>
+//             <Button
+//               variant="contained"
+//               className={classes.logout}
+//               color="secondary"
+//             >
+//               {" "}
+//               logout
+//             </Button>
           </div>
         ) : (
-          <Button
-            component={Link}
-            to="/auth"
-            variant="contained"
-            color="primary"
-          >
-            signin
-          </Button>
+//           <Button
+//             component={Link}
+//             to="/auth"
+//             variant="contained"
+//             color="primary"
+//           >
+//             signin
+//           </Button>
         )}
       </Toolbar>
     </AppBar>
